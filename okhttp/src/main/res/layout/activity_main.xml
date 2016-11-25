@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="coma.phone1000.okhttp.MainActivity">
+
+    <Button
+        android:id="@+id/teach_get_net"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testClick"
+        android:text="从网络获取" />
+    <Button
+        android:id="@+id/teach_get_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testClick"
+        android:text="从缓存获取" />
+    <Button
+        android:id="@+id/teach_get_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testClick"
+        android:text="根据网络状况自动获取" />
+</LinearLayout>

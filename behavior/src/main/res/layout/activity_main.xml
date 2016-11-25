@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="coma.phone1000.behavior.MainActivity">
+
+    <Button
+        android:id="@+id/teach_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="teachClick"
+        android:text="Hello World!" />
+    <TextView
+        android:id="@+id/teach_test_behaior"
+        android:layout_width="80dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="TestBehaior"/>
+</android.support.design.widget.CoordinatorLayout>
